@@ -14,6 +14,7 @@ const StyledDestinationTabElement = styled.li`
 	color: lightgray;
 	border-bottom: ${({ $active }) => ($active ? '3px solid white' : 'none')};
 	padding-bottom: 12px;
+	cursor: pointer;
 `;
 
 export { StyledDestinationTab, StyledDestinationTabElement };
